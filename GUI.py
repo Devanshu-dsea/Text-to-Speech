@@ -34,7 +34,7 @@ class GUI(QWidget):
 
         self.setWindowTitle('Text to Speech')
         self.resize(500,500)
-        self.setWindowIcon(QIcon('web.png'))
+        self.setWindowIcon(QIcon('logo.png'))
         self.show()
 
     def speak(self):
